@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id= "home">
+    <!-- Navbar -->
+    <div class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#button">Button</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#card">Card</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#from">From</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#group">List Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#progress_bar">Progress Bar </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagination"> Pagination </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#table"> Table </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dropdown"> Dropdown </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Buttons -->
+    <div class="container mt-4">
+        <div class="row" >
+            <h2  id= "button">Button</h2>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-primary w-100">Primary</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-secondary w-100">Secondary</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-success w-100">Success</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-danger w-100">Danger</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-warning w-100">Warning</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-info w-100">Info</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-light w-100">Light</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-dark w-100">Dark</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-link w-100">Link</button>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mb-2">
+                <button class="btn btn-outline-primary w-100">Outline Primary</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Card -->
+    <div class="container mt-4" >
+        <h2 id= "card">Card</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="./asset/Yunus-Muhammad-1200x1200.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Muhammad Yunus</h5>
+                        <p class="card-text">Muhammad Yunus (Bengali: মুহাম্মদ ইউনূস, Muhāmmôd Iunūs, pronounced
+                            [ˈmuɦɐmːod ˈjunus]; born 28 June 1940) is a Bangladeshi entrepreneur, banker, economist,
+                            politician, and civil society leader who has been serving as the Chief Adviser of the
+                            interim government of Bangladesh since 8 August 2024.[1] Yunus was awarded the Nobel Peace
+                            Prize in 2006 for founding the Grameen Bank and pioneering the concepts of microcredit and
+                            microfinance.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Form -->
+    <div class="container mt-5">
+        <h2  id= "form">Form</h2>
+        <form>
+            <!-- Name -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@gmail.com">
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <!-- Address -->
+            <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="address">
+            </div>
+
+            <!-- City, State -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state">
+                        <option selected>Choose...</option>
+                        <option>Feni</option>
+                        <option>CTG.</option>
+                        <option>Cumilla</option>
+                        <option>Sonagaji</option>
+                        <option>Fulgazi</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Agree to terms and conditions</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!--List Group -->
+    <div class="container mt-5" >
+        <div class="row">
+            <h2 id= "group">List Group</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Regular item</li>
+                <li class="list-group-item active">Active item</li>
+                <li class="list-group-item disabled">Disabled item</li>
+                <a href="#" class="list-group-item list-group-item-action">Link item</a>
+            </ul>
+        </div>
+    </div>
+
+    <!--Progress Bar -->
+    <div class="container mt-4" >
+        <h2 id= "progress_bar">Progress Bar</h2>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 69%;">69%</div>
+        </div>
+    </div>
+
+    <!--Pagination -->
+    <div class="container mt-4" >
+        <h2 id= "pagination">Pagination</h2>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Table -->
+    <div class="container mt-5" >
+        <h2 id= "table"> Table </h2>
+        <div class="table">
+            <table class="table table-striped  table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+            
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Fawjul</td>
+                        <td>fawjul@gmail.com</td>
+                        <td>(+880)1644213617</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Azim</td>
+                        <td>azim@gmail.com</td>
+                        <td>(+880)1644213617</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Emil</td>
+                        <td>emil@gmail.com</td>
+                        <td>(+880)1644213617</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Tasdik</td>
+                        <td>tasdik@gmail.com</td>
+                        <td>(+880)1644213617</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Hasan</td>
+                        <td>hasan@gmail.com</td>
+                        <td>(+880)1644213617</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Dropdown -->
+    <div class="container mt-4" >
+        <h2 id= "dropdown" >Dropdown</h2>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

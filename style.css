@@ -1,0 +1,26 @@
+/* .custom-button {
+    margin: 5px;
+}
+.custom-card {
+    margin: 20px;
+}
+.custom-list {
+    margin: 20px;
+}
+.custom-form {
+    margin: 20px;
+}
+.custom-table {
+    margin: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #fff;
+}
